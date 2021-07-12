@@ -1,6 +1,6 @@
-const {sequelize} = require("./db");
+const {sequelize} = require("../src/db");
 
-const {Track} = require("./track")
+const {Track} = require("../src/track")
 
 describe('Track', () => {
 

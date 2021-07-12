@@ -1,7 +1,7 @@
   
-const {sequelize} = require("./db");
+const {sequelize} = require("../src/db");
 
-const {Album} = require("./album")
+const {Album} = require("../src/album")
 
 describe('Album', () => {
 
